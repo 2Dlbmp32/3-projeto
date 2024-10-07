@@ -1,6 +1,5 @@
-Lucas Britto Mendes Paiva
 :root {
-    --branco-principal: #FFFFFF;
+    --branco-principal: #f7efef;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
@@ -22,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -80,7 +79,7 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+   color: var(--branco-principal);
     margin-bottom: 0.1em;
 }
 
@@ -130,7 +129,7 @@ body {
     margin-top: 1em;
 }
 
-.lista__link a{
+.lista__link a {
     text-decoration: none;
     color: var(--branco-principal);
     margin-left: 1em;
